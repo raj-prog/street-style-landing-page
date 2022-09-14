@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 50px 60px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container .list {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+.list-item {
+  list-style-type: none;
+  font-family: 'Orbitron', sans-serif;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.list-item:first-child {
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 8px;
+  font-size: 22px;
+}
+
+.hero-container {
+  margin-top: 65px;
+  position: relative;
+}
+
+.square img {
+  position: absolute;
+  top: 140px;
+  left: 70px;
+  z-index: -1;
+}
+
+.globe img {
+  position: absolute;
+  top: -50px;
+  right: 600px;
+}
+
+.star img {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.person img {
+  width: 400px;
+}
+
+.hero-container-right {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 850px;
+  background: url("./assets/start.png") no-repeat;
+  background-position: bottom 35px left;
+}
+
+.hero-heading {
+  font-size: 60px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.hero-description {
+  text-align: center;
+  margin: 35px 35px;
+  width: 750px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-email {
+  background-color: #fff;
+  padding: 3px 30px;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  padding: 3px 7px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 220px;
+  justify-content: flex-end;
+}
+
+.contact-heading {
+  font-weight: 400;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icons span img {
+  padding: 10px;
+}
+
