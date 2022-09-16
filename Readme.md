@@ -1,17 +1,14 @@
 # Raju A (R.C)
 
-<hr />
-
 ## Project 1
 
 ## Topics covered in this project:
 
 - HTML & CSS
-- Flexbox
 - Positioning
 - Background
 
-## Time required to build: 3h
+## Time required to build: 4h
 
 ### Project Screenshot
 
