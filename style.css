@@ -4,142 +4,142 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 .container {
-  margin: 50px 60px;
+  margin: 5rem 6rem;
 }
 
-.navbar-container {
+.navbar-container,
+.button-group,
+.button,
+.navbar-container .list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar-container .list {
-  display: flex;
-  width: 200px;
   justify-content: space-evenly;
+  gap: 3rem;
 }
 
 .list-item {
   list-style-type: none;
   font-family: 'Orbitron', sans-serif;
-  padding: 10px 20px;
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .list-item:first-child {
   font-weight: 800;
   text-decoration: underline;
-  text-underline-offset: 7px;
-}
-
-.button-group {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-underline-offset: 0.7rem;
 }
 
 .nav-button {
-  padding: 8px 30px;
-  border-radius: 10px;
+  padding: 0.8rem 3rem;
+  border-radius: 1rem;
   background-color: #fff;
-  margin-left: 8px;
-  font-size: 22px;
+  margin-left: 0.8rem;
+  font-size: 2.2rem;
 }
 
 .hero-container {
-  margin-top: 65px;
+  margin-top: 6.5rem;
   position: relative;
 }
 
 .square img {
   position: absolute;
-  top: 140px;
-  left: 70px;
+  top: 14rem;
+  left: 7rem;
   z-index: -1;
 }
 
 .globe img {
   position: absolute;
-  top: -50px;
-  right: 600px;
+  top: -5rem;
+  right: 60rem;
 }
 
 .star img {
   position: absolute;
-  top: 10px;
-  right: 20px;
+  top: 1rem;
+  right: 2rem;
 }
 
 .person img {
-  width: 400px;
+  width: 30%;
 }
 
 .hero-container-right {
   position: absolute;
-  top: 100px;
-  right: 20px;
-  width: 850px;
-  background: url("./assets/start.png") no-repeat;
-  background-position: bottom 35px left;
+  top: 10rem;
+  right: 2rem;
+  width: 60%;
+  background: url('./assets/start.png') no-repeat;
+  background-position: bottom 3.5rem left;
 }
 
 .hero-heading {
-  font-size: 60px;
+  text-align: center;
+  font-size: 6rem;
   font-family: 'Orbitron', sans-serif;
 }
 
 .hero-description {
   text-align: center;
-  margin: 35px 35px;
-  width: 750px;
+  margin: 3.5rem 3.5rem;
+  font-size: 1.6rem;
+  width: 85%;
+  font-weight: 400;
 }
 
 .button {
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .button-email {
   background-color: #fff;
-  padding: 3px 30px;
-  border-radius: 10px;
+  padding: 0.3rem 3rem;
+  border-radius: 1rem;
   font-family: 'Orbitron', sans-serif;
-  margin-right: 10px;
-  font-size: 16px;
+  margin-right: 1rem;
+  font-size: 1.6rem;
 }
 
 .button-join {
   background-color: #000;
   color: #fff;
   font-family: 'Orbitron', sans-serif;
-  padding: 3px 7px;
-  border-radius: 10px;
-  font-size: 16px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
 }
 
 .contact-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 220px;
+  min-height: 220px;
   justify-content: flex-end;
 }
 
 .contact-heading {
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
 .icons {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .icons span img {
-  padding: 10px;
+  padding: 1rem;
 }
-

@@ -4,9 +4,9 @@
 
 ## Topics covered in this project:
 
-- HTML & CSS
-- Positioning
-- Background
+- **_HTML & CSS_**
+- **_Positioning_**
+- **_Background_**
 
 ## Time required to build: 4h
 
