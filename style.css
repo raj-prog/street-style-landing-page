@@ -63,15 +63,18 @@ body {
 }
 
 .globe img {
-  position: absolute;
-  top: -5rem;
-  right: 60rem;
+  display: block;
+  margin: 0 auto;
 }
 
 .star img {
   position: absolute;
   top: 1rem;
   right: 2rem;
+}
+
+.person {
+  margin-top: -6%;
 }
 
 .person img {

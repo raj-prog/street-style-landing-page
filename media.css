@@ -1,2 +1,26 @@
 @media screen and (max-width: 90rem) {
+  .globe img {
+    margin-bottom: 7rem;
+  }
+
+  .person {
+    text-align: center;
+    padding-top: 3rem;
+  }
+
+  .square {
+    display: none;
+  }
+
+  .hero-container-right {
+    margin-top: 45%;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 64rem) {
+  .navbar-container .list {
+    display: none;
+  }
 }
